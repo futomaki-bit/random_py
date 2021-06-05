@@ -19,8 +19,8 @@ Testing how random is random from 'import random'
 
 **Sample Output:**
 ```
-Range 82 ~ 125
-Delta: 43
-Theoretical: 1.0 %
-Variance: 106.7
+Range:        83 ~ 120
+Delta:        37
+Theoretical:  1.0%
+Variance:     97.7
 ```
