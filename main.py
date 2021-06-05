@@ -16,7 +16,13 @@ for i in range(repetition):
 #     print(index, counterList[index])
 
 # print information
-print("range", min(counterList), "~", max(counterList))
-print("delta:", max(counterList) - min(counterList))
-print("theoretical:", sum(counterList)/len(counterList)/100, "%")
-print("variance:", numpy.var(counterList))
+
+
+def printer(info, number):
+    print('{:13s}'.format(info), number)
+
+
+printer("Range:", str(min(counterList)) + " ~ " + str(max(counterList)))
+printer("Delta:", max(counterList) - min(counterList))
+printer("Theoretical:", str(sum(counterList)/len(counterList)/100)+"%")
+printer("Variance:", numpy.var(counterList))
