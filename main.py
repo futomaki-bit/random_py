@@ -1,4 +1,4 @@
-# testing random
+# testing random, numpy for variance
 import numpy as numpy
 import random
 
@@ -11,12 +11,6 @@ counterList = [0]*(upperLimit+1)
 # count frequency
 for i in range(repetition):
     counterList[random.randint(0, upperLimit)] += 1
-
-# print actual data
-# for index in range(0, len(counterList)):
-#     print(index, counterList[index])
-
-# printer function to print info
 
 
 def printer(info, number):
