@@ -7,8 +7,8 @@ Testing how random is random from 'import random'
 - Repeat 10000 times
 
 **Experimental Results:**
-- Min often near 75
-- Max often near 125
+- Minimum occurences often near 75 times
+- Max occurences often near 125 times
 - Delta/Difference usually in the 40s or 50s
 - Variance usually in 90s or 100s
 
