@@ -2,6 +2,10 @@
 
 Testing how random is random from 'import random'
 
+**Requirement:**
+- Python
+- [NumPy](https://numpy.org/install/)
+
 **My test:**
 - Data from 0 to 99
 - Repeat 10000 times
